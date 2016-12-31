@@ -1,7 +1,7 @@
 A Visual Studio extensions that provides to the HTML editor an area where it shows a preview of your HTML page.
 Essentially it is a Chrome based browser inside Visual Studio showing your HTML page. Internally it uses on [CEFSharp](https://github.com/cefsharp/CefSharp).
 
-![https://ramonfmendes.gallerycdn.vsassets.io/extensions/ramonfmendes/htmlview/1.3/1482143199965/207798/1/screenshot.png]()
+![](https://ramonfmendes.gallerycdn.vsassets.io/extensions/ramonfmendes/htmlview/1.3/1482143199965/207798/1/screenshot.png)
 
 # Features
 
