@@ -10,12 +10,12 @@ class Script
 	const string VSIXNAME = "HtmlView";
 	const string VSIXID = "HtmlView.MISoftware.57ef93d2-bc83-4264-b2f4-c9a5eb66faa1";
 
-	static readonly string CWD = @"D:\Projetos-VSX\HtmlView\ReleaseInfo"; //Environment.CurrentDirectory + '\\';
+	static readonly string DIR_RI = @"D:\Projetos-VSX\HtmlView\ReleaseInfo";
 
 	[STAThread]
 	static public void Main(string[] args)
 	{
-		Environment.CurrentDirectory = CWD;
+		Environment.CurrentDirectory = DIR_RI;
 
 		// Copy VSIX
 		File.Delete("HtmlView.vsix");
@@ -72,16 +72,17 @@ class Script
 		// CEF files
 		string[] cef_files = new[]
 		{
+			"CefSharp.BrowserSubprocess.exe",
+			"CefSharp.BrowserSubprocess.Core.dll",
+			"d3dcompiler_47.dll",
+			"libcef.dll",
+			"icudtl.dat",
 			"cef.pak",
 			"cef_100_percent.pak",
 			"cef_200_percent.pak",
-			"cef_extensions.pak",
-			"CefSharp.BrowserSubprocess.Core.dll",
-			"CefSharp.BrowserSubprocess.exe",
-			"d3dcompiler_47.dll",
+			"chrome_elf.dll",
 			"devtools_resources.pak",
-			"icudtl.dat",
-			"libcef.dll",
+			"cef_extensions.pak",
 			"libEGL.dll",
 			"libGLESv2.dll",
 			"natives_blob.bin",
@@ -113,7 +114,7 @@ class Script
 			FileName = exe,
 			Arguments = args,
 			UseShellExecute = false,
-			WorkingDirectory = CWD
+			WorkingDirectory = DIR_RI
 		};
 
 		var p = Process.Start(startInfo);

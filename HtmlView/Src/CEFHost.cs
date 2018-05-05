@@ -41,6 +41,8 @@ namespace HtmlView
 
 		static CefSettings GetCEFSettings()
 		{
+			CefSharpSettings.LegacyJavascriptBindingEnabled = true;
+
 			string path = Assembly.GetAssembly(typeof(EditorMargin)).Location;
 			string dir = Path.GetDirectoryName(path) + '\\';// + "\\CEF";
 			return new CefSettings()
