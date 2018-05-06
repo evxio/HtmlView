@@ -1,3 +1,5 @@
+**[Download it at VS Marketplace](https://marketplace.visualstudio.com/items?itemName=RamonFMendes.HtmlView)**
+
 A Visual Studio extensions that provides to the HTML editor an area where it shows a preview of your HTML page.
 Essentially it is a Chrome based browser inside Visual Studio showing your HTML page. Internally it uses on [CEFSharp](https://github.com/cefsharp/CefSharp).
 

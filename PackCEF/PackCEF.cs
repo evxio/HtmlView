@@ -68,6 +68,8 @@ class Script
 		vsix_zip.GetEntry("[Content_Types].xml").Delete();
 		vsix_zip.CreateEntryFromFile("[Content_Types].xml", "[Content_Types].xml");
 
+		vsix_zip.Dispose();
+		return;
 
 		// CEF files
 		string[] cef_files = new[]

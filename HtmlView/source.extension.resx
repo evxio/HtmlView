@@ -121,7 +121,7 @@
     <value>HtmlView</value>
   </data>
   <data name="112" xml:space="preserve">
-    <value>Provides to the HTML editor an area where it shows a preview of your HTML page. Essentially it is a Chrome based browser inside Visual Studio showing your HTML page.</value>
+    <value>Provides the HTML editor an area where it shows a preview of your HTML page. Essentially it is a Chrome based browser inside Visual Studio showing your HTML page.</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="400" type="System.Resources.ResXFileRef, System.Windows.Forms">

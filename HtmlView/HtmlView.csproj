@@ -87,7 +87,193 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <Content Include="cef.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="cef_100_percent.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="cef_200_percent.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="cef_extensions.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="d3dcompiler_47.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="devtools_resources.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="icudtl.dat">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="natives_blob.bin">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\am.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\ar.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\bg.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\bn.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\ca.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\cs.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\da.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\de.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\el.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\en-GB.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\en-US.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\es-419.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\es.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\et.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\fa.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\fi.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\fil.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\fr.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\gu.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\he.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\hi.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\hr.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\hu.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\id.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\it.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\ja.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\kn.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\ko.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\lt.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\lv.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\ml.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\mr.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\ms.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\nb.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\nl.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\pl.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\pt-BR.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\pt-PT.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\ro.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\ru.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\sk.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\sl.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\sr.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\sv.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\sw.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\ta.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\te.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\th.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\tr.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\uk.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\vi.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\zh-CN.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="locales\zh-TW.pak">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="packages.config" />
+    <Content Include="snapshot_blob.bin">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
       <Generator>VsixManifestGenerator</Generator>
@@ -235,6 +421,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\clear.png" />
+    <Content Include="CefSharp.BrowserSubprocess.Core.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="CefSharp.BrowserSubprocess.exe">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="chrome_elf.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="libcef.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="libEGL.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="libGLESv2.dll">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="source.extension.ico">
       <DependentUpon>source.extension.vsixmanifest</DependentUpon>
     </Content>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="HtmlView.MISoftware.57ef93d2-bc83-4264-b2f4-c9a5eb66faa1" Version="1.4" Language="en-US" Publisher="MI Software" />
+        <Identity Id="HtmlView.MISoftware.57ef93d2-bc83-4264-b2f4-c9a5eb66faa1" Version="1.5" Language="en-US" Publisher="MI Software" />
         <DisplayName>HtmlView</DisplayName>
-        <Description xml:space="preserve">Provides to the HTML editor an area where it shows a preview of your HTML page. Essentially it is a Chrome based browser inside Visual Studio showing your HTML page.</Description>
+        <Description xml:space="preserve">Provides the HTML editor an area where it shows a preview of your HTML page. Essentially it is a Chrome based browser inside Visual Studio showing your HTML page.</Description>
         <MoreInfo>http://misoftware.com.br/Home/Post/HtmlView</MoreInfo>
         <Icon>Resources\icon.png</Icon>
         <PreviewImage>Resources\preview.png</PreviewImage>

@@ -31,7 +31,8 @@ namespace HtmlView
 					dir + "CefSharp.BrowserSubprocess.Core.dll"
 				};
 
-				if(files.Any(f => !File.Exists(f)))
+				//if(files.Any(f => !File.Exists(f)))
+				if(true)
 				{
 					Process.Start("explorer", dir);
 
