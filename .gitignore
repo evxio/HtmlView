@@ -1,5 +1,4 @@
 /ReleaseInfo/*.zip
-/ReleaseInfo/*.vsix
 /ReleaseInfo/*.log
 
 ## Ignore Visual Studio temporary files, build results, and
