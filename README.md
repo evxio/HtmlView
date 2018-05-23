@@ -7,9 +7,10 @@ Essentially it is a Chrome based browser inside Visual Studio showing your HTML 
 
 # Features
 
+- **CTRL+SHIFT+CLICK** any element to inspect it
+- JS method to check if you viewing your HTML inside HtmlView: `HtmlView.active == true`
 - Chrome DevTools (shortcut: F12)
 - Console area shows any log output (errors or console.log() calls)
-- CTRL+SHIFT+CLICK any element to inspect it
 
 # How to use
 

@@ -178,7 +178,7 @@ namespace HtmlView
 			splitter.Width = 5;
 			splitter.ResizeDirection = GridResizeDirection.Columns;
 			splitter.VerticalAlignment = VerticalAlignment.Stretch;
-			splitter.HorizontalAlignment = System.Windows.HorizontalAlignment.Stretch;
+			splitter.HorizontalAlignment = HorizontalAlignment.Stretch;
 			splitter.DragCompleted += Splitter_DragCompleted;
 
 			grid.Children.Add(splitter);
